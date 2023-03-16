@@ -1,4 +1,7 @@
-# TLS Handshake
+# TLS
+
+## TLS Handshake
+
 In a TLS/SSL handshake, clients and servers exchange SSL certificates, cipher suite requirements, and randomly generated data for creating session keys.
 
 TLS handshakes are a foundational part of how HTTPS works.
@@ -7,7 +10,7 @@ SSL, or Secure Sockets Layer, was the original encryption protocol developed for
 
 ```
 ┌───────────┐                ┌───────────┐
-│  Client  │                │ 力 Server  │
+│  Client  │                │  Server  │
 └─────┬─────┘                └─────┬─────┘
       │                            │
       │                            │ 
